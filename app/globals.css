@@ -4,75 +4,75 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* Updated color palette for rental app branding */
-  --background: oklch(1 0 0); /* White */
-  --foreground: oklch(0.3 0.05 200); /* Cyan-800 equivalent */
-  --card: oklch(0.98 0.02 200); /* Light cyan */
-  --card-foreground: oklch(0.4 0.02 220); /* Dark cyan */
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.3 0.05 200);
-  --primary: oklch(0.3 0.05 200); /* Cyan-800 for CTAs */
-  --primary-foreground: oklch(1 0 0); /* White text on primary */
-  --secondary: oklch(0.65 0.15 280); /* Purple accent */
-  --secondary-foreground: oklch(1 0 0); /* White text on secondary */
-  --muted: oklch(0.96 0.01 220); /* Subtle backgrounds */
-  --muted-foreground: oklch(0.4 0.02 220); /* Text on muted */
-  --accent: oklch(0.65 0.15 280); /* Purple for highlights */
-  --accent-foreground: oklch(1 0 0); /* White text on accent */
-  --destructive: oklch(0.55 0.2 15); /* Error red */
-  --destructive-foreground: oklch(1 0 0);
-  --border: oklch(0.85 0.01 220); /* Light borders */
-  --input: oklch(1 0 0);
-  --ring: oklch(0.3 0.05 200 / 0.1); /* Focus ring */
-  --chart-1: oklch(0.65 0.15 280);
-  --chart-2: oklch(0.6 0.15 260);
-  --chart-3: oklch(0.7 0.2 50);
-  --chart-4: oklch(0.65 0.15 140);
-  --chart-5: oklch(0.7 0.2 30);
+  /* Green theme color palette for Hippo Homes */
+  --background: #ffffff; /* White background */
+  --foreground: #475569; /* Dark slate gray text */
+  --card: #f1f5f9; /* Light gray cards */
+  --card-foreground: #059669; /* Emerald green text on cards */
+  --popover: #ffffff;
+  --popover-foreground: #475569;
+  --primary: #059669; /* Emerald green primary */
+  --primary-foreground: #ffffff; /* White text on primary */
+  --secondary: #10b981; /* Vivid emerald secondary */
+  --secondary-foreground: #ffffff; /* White text on secondary */
+  --muted: #f1f5f9; /* Light gray muted */
+  --muted-foreground: #475569; /* Dark slate text on muted */
+  --accent: #10b981; /* Vivid emerald accent */
+  --accent-foreground: #ffffff; /* White text on accent */
+  --destructive: #ea580c; /* Orange for errors */
+  --destructive-foreground: #ffffff;
+  --border: #e2e8f0; /* Light border */
+  --input: #f1f5f9;
+  --ring: rgba(5, 150, 105, 0.5); /* Green focus ring */
+  --chart-1: #059669;
+  --chart-2: #10b981;
+  --chart-3: #4ade80;
+  --chart-4: #bbf7d0;
+  --chart-5: #d1fae5;
   --radius: 0.5rem;
-  --sidebar: oklch(0.98 0.01 220);
-  --sidebar-foreground: oklch(0.3 0.05 200);
-  --sidebar-primary: oklch(1 0 0);
-  --sidebar-primary-foreground: oklch(0.3 0.05 200);
-  --sidebar-accent: oklch(0.65 0.15 280);
-  --sidebar-accent-foreground: oklch(1 0 0);
-  --sidebar-border: oklch(0.85 0.01 220);
-  --sidebar-ring: oklch(0.3 0.05 200 / 0.1);
+  --sidebar: #f1f5f9;
+  --sidebar-foreground: #475569;
+  --sidebar-primary: #059669;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #10b981;
+  --sidebar-accent-foreground: #ffffff;
+  --sidebar-border: #e2e8f0;
+  --sidebar-ring: rgba(5, 150, 105, 0.3);
 }
 
 .dark {
-  --background: oklch(0.145 0 0);
-  --foreground: oklch(0.985 0 0);
-  --card: oklch(0.145 0 0);
-  --card-foreground: oklch(0.985 0 0);
-  --popover: oklch(0.145 0 0);
-  --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.985 0 0);
-  --primary-foreground: oklch(0.205 0 0);
-  --secondary: oklch(0.269 0 0);
-  --secondary-foreground: oklch(0.985 0 0);
-  --muted: oklch(0.269 0 0);
-  --muted-foreground: oklch(0.708 0 0);
-  --accent: oklch(0.269 0 0);
-  --accent-foreground: oklch(0.985 0 0);
-  --destructive: oklch(0.396 0.141 25.723);
-  --destructive-foreground: oklch(0.637 0.237 25.331);
-  --border: oklch(0.269 0 0);
-  --input: oklch(0.269 0 0);
-  --ring: oklch(0.439 0 0);
-  --chart-1: oklch(0.488 0.243 264.376);
-  --chart-2: oklch(0.696 0.17 162.48);
-  --chart-3: oklch(0.769 0.188 70.08);
-  --chart-4: oklch(0.627 0.265 303.9);
-  --chart-5: oklch(0.645 0.246 16.439);
-  --sidebar: oklch(0.205 0 0);
-  --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: oklch(0.488 0.243 264.376);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.269 0 0);
-  --sidebar-accent-foreground: oklch(0.985 0 0);
-  --sidebar-border: oklch(0.269 0 0);
-  --sidebar-ring: oklch(0.439 0 0);
+  --background: #0f172a;
+  --foreground: #f8fafc;
+  --card: #1e293b;
+  --card-foreground: #10b981;
+  --popover: #1e293b;
+  --popover-foreground: #f8fafc;
+  --primary: #10b981;
+  --primary-foreground: #0f172a;
+  --secondary: #059669;
+  --secondary-foreground: #ffffff;
+  --muted: #334155;
+  --muted-foreground: #94a3b8;
+  --accent: #10b981;
+  --accent-foreground: #0f172a;
+  --destructive: #ea580c;
+  --destructive-foreground: #ffffff;
+  --border: #334155;
+  --input: #334155;
+  --ring: rgba(16, 185, 129, 0.5);
+  --chart-1: #10b981;
+  --chart-2: #059669;
+  --chart-3: #4ade80;
+  --chart-4: #bbf7d0;
+  --chart-5: #d1fae5;
+  --sidebar: #1e293b;
+  --sidebar-foreground: #f8fafc;
+  --sidebar-primary: #10b981;
+  --sidebar-primary-foreground: #0f172a;
+  --sidebar-accent: #059669;
+  --sidebar-accent-foreground: #ffffff;
+  --sidebar-border: #334155;
+  --sidebar-ring: rgba(16, 185, 129, 0.3);
 }
 
 @theme inline {
@@ -123,4 +123,56 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+/* Added modern animations and effects */
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes pulse-glow {
+  0%,
+  100% {
+    box-shadow: 0 0 20px rgba(16, 185, 129, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 40px rgba(16, 185, 129, 0.6);
+  }
+}
+
+@keyframes gradient-shift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 3s ease-in-out infinite;
+}
+
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradient-shift 8s ease infinite;
+}
+
+.glass-effect {
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }

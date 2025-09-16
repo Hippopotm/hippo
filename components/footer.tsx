@@ -11,8 +11,8 @@ export function Footer() {
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-3 mb-4">
-              <Image src="/hippo-logo.png" alt="HIPPO Logo" width={32} height={32} className="w-8 h-8" />
-              <h3 className="text-2xl font-bold text-primary">HIPPO</h3>
+              <Image src="/hippo-logo.png" alt="Hippo Homes Logo" width={40} height={40} className="w-10 h-10" />
+              <h3 className="text-2xl font-bold text-primary">Hippo Homes</h3>
             </div>
             <p className="text-muted-foreground mb-6 max-w-md leading-relaxed">
               L'application qui révolutionne la location d'appartements avec des technologies innovantes et une
@@ -21,7 +21,7 @@ export function Footer() {
             <div className="flex flex-col sm:flex-row gap-3">
               <Button variant="outline" size="sm">
                 <Mail className="h-4 w-4 mr-2" />
-                contact@hippo.fr
+                hippopotm@gmail.com
               </Button>
             </div>
           </div>
@@ -38,11 +38,6 @@ export function Footer() {
               <li>
                 <a href="#how-it-works" className="hover:text-primary transition-colors">
                   Comment ça marche
-                </a>
-              </li>
-              <li>
-                <a href="#testimonials" className="hover:text-primary transition-colors">
-                  Témoignages
                 </a>
               </li>
               <li>
@@ -84,7 +79,7 @@ export function Footer() {
         <Separator className="my-8" />
 
         <div className="flex flex-col sm:flex-row justify-between items-center text-sm text-muted-foreground">
-          <p>© 2024 HIPPO. Tous droits réservés.</p>
+          <p>© 2025 HIPPO HOMES. Tous droits réservés.</p>
           <p>Fait avec ❤️ pour révolutionner la location</p>
         </div>
       </div>

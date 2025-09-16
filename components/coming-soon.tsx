@@ -59,7 +59,7 @@ export function ComingSoon() {
           {/* Timeline */}
           <div className="text-center">
             <p className="text-muted-foreground mb-2">Lancement prévu</p>
-            <p className="text-2xl font-bold text-primary">T1 2025</p>
+            <p className="text-2xl font-bold text-primary">Janvier 2026</p>
           </div>
         </div>
       </div>
