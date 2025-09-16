@@ -7,10 +7,15 @@ import { Suspense } from "react"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "RentMatch - Révolutionnez votre recherche d'appartement",
+  title: "Hippo Homes - Révolutionnez votre recherche d'appartement",
   description:
     "L'application qui transforme la location d'appartements avec des visites virtuelles 3D, des profils vérifiés et un matching intelligent.",
   generator: "v0.app",
+  icons: {
+    icon: "/hippo-logo-green.png",
+    shortcut: "/hippo-logo-green.png",
+    apple: "/hippo-logo-green.png",
+  },
 }
 
 export default function RootLayout({

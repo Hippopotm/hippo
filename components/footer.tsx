@@ -1,7 +1,6 @@
 import { Button } from "@/components/ui/button"
 import { Separator } from "@/components/ui/separator"
 import { Mail } from "lucide-react"
-import Image from "next/image"
 
 export function Footer() {
   return (
@@ -11,11 +10,18 @@ export function Footer() {
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-3 mb-4">
-              <Image src="/hippo-logo.png" alt="Hippo Homes Logo" width={40} height={40} className="w-10 h-10" />
+              <video
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo-turning-around-bhIl09yva6qks7JlBGFrQ5aXRX6Gm8.mp4"
+                autoPlay
+                loop
+                muted
+                className="w-10 h-10"
+                style={{ objectFit: "contain" }}
+              />
               <h3 className="text-2xl font-bold text-primary">Hippo Homes</h3>
             </div>
             <p className="text-muted-foreground mb-6 max-w-md leading-relaxed">
-              L'application qui révolutionne la location d'appartements avec des technologies innovantes et une
+              L'application qui révolutionne la location d'appartements avec l'intelligence artificielle et une
               expérience utilisateur exceptionnelle.
             </p>
             <div className="flex flex-col sm:flex-row gap-3">

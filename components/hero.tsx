@@ -1,3 +1,5 @@
+"use client"
+
 import { Button } from "@/components/ui/button"
 import { ArrowRight, Play, Sparkles } from "lucide-react"
 
@@ -31,18 +33,27 @@ export function Hero() {
               appartement parfait
             </span>
             <br />
-            <span className="text-2xl md:text-4xl text-muted-foreground">grâce à l'IA</span>
+            <span className="text-2xl md:text-4xl text-muted-foreground">
+              grâce à l'<span className="text-primary">IA</span>
+            </span>
           </h1>
 
           {/* Subtitle */}
           <p className="text-xl md:text-2xl text-muted-foreground text-pretty mb-12 max-w-3xl mx-auto leading-relaxed">
-            L'application qui révolutionne la location avec des visites virtuelles 3D, des profils vérifiés et un
-            matching intelligent entre locataires et propriétaires.
+            L'application qui révolutionne la location avec des visites virtuelles 3D, des profils vérifiés et une
+            <span className="text-primary"> IA avancée</span> pour matcher locataires et propriétaires.
           </p>
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
-            <Button size="lg" className="text-lg px-8 py-4 h-auto animate-pulse-glow">
+            <Button
+              size="lg"
+              className="text-lg px-8 py-4 h-auto animate-pulse-glow"
+              onClick={() => {
+                const emailSection = document.getElementById("coming-soon")
+                emailSection?.scrollIntoView({ behavior: "smooth" })
+              }}
+            >
               Être notifié du lancement
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
